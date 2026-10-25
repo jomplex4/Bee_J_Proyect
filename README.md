@@ -1,4 +1,4 @@
-# BEE J 1.3
+# BEE J 1.4
 
 Aplicación Android offline para practicar spelling bee en inglés estadounidense.
 
@@ -48,3 +48,9 @@ Aplicación Android offline para practicar spelling bee en inglés estadounidens
 - `Words.kt`
 - `SpellingEvaluator.kt`
 
+
+## Corrección 1.4
+
+- Eliminado el import incorrecto `androidx.compose.foundation.layout.weight` que hacía fallar `compileDebugKotlin`.
+- `Modifier.weight(...)` permanece únicamente dentro de scopes válidos de Row y Column.
+- versionCode 5, versionName 1.4.
