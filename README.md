@@ -62,5 +62,10 @@ En GitHub, ir a `Actions`, revisar los pasos, y descargar `BEE-J-v1.0.apk` desde
 `minSdk 31`, `compileSdk 37`, `targetSdk 37`. La aplicación es Kotlin + Compose y no incluye binarios `.so` ligados a una arquitectura; no hay limitación de ABI solo arm64. El tamaño final del APK y su instalación en un Samsung Galaxy A03 Core permanecen sin verificar.
 
 
-## Versión 1.1
-Corrección en GitHub Actions: setup-android recibe solo `platform-tools` y deja de solicitar el paquete obsoleto `tools`. Se mantiene la instalación de Android 37 y las tareas de pruebas y compilación.
+## Versión 1.2
+Corrección en GitHub Actions: setup-android recibe solo `platform-tools` y deja de solicitar el paquete obsoleto `tools`. Se mantiene la instalación de Android 36 y las tareas de pruebas y compilación.
+
+
+## Corrección v1.2
+
+Se alineó compileSdk/targetSdk 36 con AGP 8.13.2 y la instalación de Android SDK Platform 36 y Build Tools 35.0.0. El APK sigue siendo compatible con Android 12+ (minSdk 31). El resultado de GitHub Actions debe comprobarse tras el push.
