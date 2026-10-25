@@ -1,0 +1,13 @@
+<resources>
+ <style name="Theme.BeeJ" parent="android:style/Theme.DeviceDefault.NoActionBar">
+  <item name="android:windowBackground">@color/bg</item>
+  <item name="android:statusBarColor">@color/bg</item>
+  <item name="android:navigationBarColor">@color/bg</item>
+  <item name="android:windowLightStatusBar">false</item>
+  <item name="android:windowLightNavigationBar">false</item>
+  <item name="android:windowSplashScreenBackground">@color/bg</item>
+  <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_fg</item>
+  <item name="android:windowSplashScreenIconBackgroundColor">@color/icon_bg</item>
+  <item name="android:windowSplashScreenBrandingImage">@drawable/splash_brand</item>
+ </style>
+</resources>
